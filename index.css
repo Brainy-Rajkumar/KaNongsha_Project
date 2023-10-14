@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+
+nav i {
+    padding-top: 30px;
+    color: gray;
+}
+
+nav>div {
+    display: inherit;
+    height: 100%;
+    background: aliceblue;
+    box-shadow: 0 1px 10px gray;
+}
+
+#nav_div_1>div {
+    width: 17vw;
+    display: flex;
+    color: aliceblue;
+    background: #000;
+}
+
+#nav_div_2 {
+    width: 70vw;
+}
+
+#nav_div_3 {
+    display: flex;
+    width: 30vw;
+}
+
+nav>div>div>div {
+    display: inherit;
+}
+
+header {}
+
+aside {
+    position: fixed;
+}
+
+table {
+    width: 17vw;
+    background-color: aliceblue;
+    box-shadow: 1px 0 10px gray;
+}
+
+table td {
+    font-weight: bold;
+}
+
+table p {
+    color: gray;
+}
+
+main {
+    padding-left: 20vw;
+    padding-top: 30px;
+}
+
+#top {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    height: 120px;
+    /* padding: 20px; */
+    margin: 15px 40px 20px 0;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.top-card {
+    border-bottom: 1px solid aliceblue;
+    padding: 20px;
+}
+
+.bot-card {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.bot-card > h5 {
+    padding-left: 10px;
+}
+
+.orange {
+    background-image: linear-gradient(to right, orange, rgb(255, 212, 132));
+}
+
+.green {
+    background-image: linear-gradient(to right, rgb(17, 194, 17), rgb(126, 255, 126));
+}
+
+.red {
+    background-image: linear-gradient(to right, red, rgb(255, 131, 131));
+}
+
+.blue {
+    background-image: linear-gradient(to right, blue, rgb(104, 104, 255));
+}
+
+#Mid {
+    display: flex;
+}
+
+.SalesAnalytics {
+    background-color: aliceblue;
+    box-shadow: 1px 1px 10px gray;
+    width: 55vw;
+    height: 52vh;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sales-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProjectRisk {
+    width: 25vw;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 10px gray;
+    height: 55vh;
+    /* padding: 20px; */
+    border-radius: 5px;
+    margin: 0 25px;
+}
+
+.ProjectRisk > h3:first-child {
+    padding-top: 20px;
+}
+
+.ProjectRisk > h2 {
+    height: 130px;
+    width: 130px;
+    color: white;
+    background-color: bisque;
+    border-radius: 50%;
+    margin: 10px auto 10px auto;
+    padding-top: 50px;
+} 
+
+.ProjectRisk > a {
+    color: orange;
+    border-bottom: 2px solid gray;
+    padding: 0 90px 10px 90px;
+    margin-bottom: 10px;
+}
+
+#risk-data {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#risk-data > div > h3:first-child {
+    color: gray;
+}
+
+#risk-data > div:first-child {
+    margin-right: 50px;
+    border-right: 2px solid gray;
+    padding-right: 50px;
+}
+
+.ProjectRisk > div > button {
+    width: 100%;
+    padding: 20px 10px;
+    margin: 32px 0 0;
+    border-radius: 0 0 5px 5px;
+    border: none;
+    background-color: orange;
+    color: aliceblue;
+    font-size: larger;
+}
+
+#Bot {
+    display: flex;
+    margin-top: 50px;
+}
+
+.ApplicationSales {
+    width: 50vw;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 10px gray;
+    height: 55vh;
+    border-radius: 5px;
+}
+
+.ApplicationSales > form {
+    margin-top: 20px;
+}
+
+.ApplicationSales > form > input {
+    margin-left: 20px;
+}
+
+.ApplicationSales > form > label {
+    margin: 40px;
+}
+
+.App-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.UserActivity {
+    width: 25vw;
+    margin-left: 30px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 10px gray;
+    height: 55vh;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.UserActivity > div {
+    display: flex;
+}
+
+.UserActivity > div > div > div {
+    display: flex;
+    color: gray;
+    margin-top: 10px;
+}
